@@ -1,3 +1,8 @@
+## Intro
+
+Basically we will not use elm-reactor, but instead compile elm manually and create another index.html which link to that generated script by elm instead. Check `index.html` on how to proper link to generated script
+
+
 ## Develop locally
 
 - install elm-live first: `npm install -g elm-live`
