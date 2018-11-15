@@ -1,8 +1,11 @@
 ## Develop locally
 
+- install elm-live first: `npm install -g elm-live`
+- this will compile elm and reload on change (good for dev env):
 `elm-live src/Main.elm -- --output=dist/main.js`
 
-dist/main.js will be the output, this can be changed to any folder
+Note:
+- `dist/main.js` will be the output, this can be changed to any folder
 
 ## Production
 
